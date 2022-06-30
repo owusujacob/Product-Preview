@@ -1,0 +1,28 @@
+.container {
+    display:flex;
+    
+    height:500px;
+    width:700px;
+    border-style: solid;
+  border-color: green;
+  margin: auto;
+}
+.flex-container {
+    display:flex;
+    
+   
+}
+.image1 {
+    background: url(images/image-product-desktop.jpg);
+   
+    
+
+}
+.info {
+    width: 50%; 
+   
+}
+.price {
+    display:flex;
+
+}

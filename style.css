@@ -1,28 +1,74 @@
+
+body {
+  background-color:blanchedalmond;
+   
+}
 .container {
-    display:flex;
-    
-    height:500px;
-    width:700px;
+    height:400px;
+    width:600px;
     border-style: solid;
   border-color: green;
   margin: auto;
+  margin-top: 70px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
 }
 .flex-container {
     display:flex;
-    
+    height:500px;
+    width:700px;
    
 }
 .image1 {
-    background: url(images/image-product-desktop.jpg);
-   
-    
-
+ background: url(images/image-product-desktop.jpg); 
+   background-size: cover;
+   width: 50%;
 }
 .info {
     width: 50%; 
-   
+  margin-left: 20px;
+ 
 }
 .price {
     display:flex;
+}
+.perf {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+ 
+}
+.subT {
+    font-size: 25px;
+    font-weight: bold;
 
 }
+.conT {
+    color: grey;
+    font-size: 15px;
+
+}
+.addtocart {
+    color: aliceblue;
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:  rgb(5, 76, 5);
+    border: 0px;
+}
+h5 {
+    margin-left: 30px;
+    text-decoration: line-through;
+    color: grey;
+}
+h2 {
+   color: hsl(158, 36%, 37%);
+}
+ 
+  
+ 
+  
+ 
+  
